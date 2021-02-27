@@ -1,4 +1,4 @@
 
 const saludar = (nombre) => {
-  console.log("Hola " + nombre);
+  alert("Hola " + nombre); 
 }
