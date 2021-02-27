@@ -1,4 +1,10 @@
 
 const saludar = (nombre) => {
-  alert("Hola " + nombre); 
+  const Persona = {
+    nombre: "juan",
+    apellido: "perez"
+  }
+  Persona.nombre = nombre;
+  alert("Hola " + Persona.nombre); 
+
 }
